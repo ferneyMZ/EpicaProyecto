@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body, html {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2px;
+    color: #000;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 900px;
+    height: 400px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+
+.left-section, .right-section {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.left-section {
+    background: url('/imagenes/WhatsApp\ Image\ 2024-09-07\ at\ 1.14.33\ PM.jpeg') no-repeat center;
+    background-size: cover;
+    color: white;
+}
+
+.right-section {
+    background: url('/imagenes/WhatsApp\ Image\ 2024-09-07\ at\ 2.01.10\ PM.jpeg') no-repeat center;
+    background-size: cover;
+    color: white;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.create-btn {
+    display: block;
+    width: 100px;
+    padding: 10px;
+    margin: 0 auto 0;
+    background-color: #FA7D09;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+    position: relative;
+    top: 20px;
+}
+
+.create-btn:hover {
+    background-color: #FA7D09;
+}

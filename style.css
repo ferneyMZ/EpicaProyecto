@@ -1,0 +1,90 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: beige;
+}
+header{
+    text-align: center;
+}
+   
+    
+    
+
+.info{
+    margin-right: 30px;
+    font-family: 'Lobster';
+    margin: 0;
+    padding: 0;
+    font-family: 'Lobster', cursive; 
+    font-size: 0.8rem;
+    
+}
+.cityscape{
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    border-radius: 4px;
+    display: flex;
+    background-image: url("/imagenes/bus.jpg");
+    background-size: cover; /* Ajusta el tamaño para cubrir todo el fondo */
+    background-repeat:no-repeat; /* Evita la repetición */
+    height: 900px;
+         
+}
+.buttons  {
+    background-color: white;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#agre{
+    
+    background-color: orangered;
+    height: 5%;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    margin-right: 8px;
+}
+#elim{
+    background-color: orangered;
+    height: 5%;
+    display: flex;
+    flex-direction: column;
+    float: right;
+    margin-right: 8px;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 8px;
+    
+}
+.div1{
+    grid-row: span 5 / span 5;
+    border: 5px solid orangered;
+}
+    
+.div1 img{
+    align-items: center;
+    padding: 10%;
+    height: 50px;
+    width: 60px;
+    border: 1px solid #333;
+    
+}
+.div1 p{
+    border: 1px solid orangered;
+}
+
+.cityscape {
+    border: 1px solid #333 ;
+    grid-column: span 4 / span 4;
+    grid-row: span 5 / span 5;
+}
+        

@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: flex;
+    width: 900px;
+    height: 500px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.signin-container, .signup-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signin-container {
+    background-image: url('/imagenes/WhatsApp\ Image\ 2024-09-07\ at\ 1.14.33\ PM.jpeg'); /* Aquí debes colocar la imagen de fondo */
+    background-size: cover;
+    background-position: center;
+}
+
+.signup-container {
+    background: linear-gradient(to top, #FA7D09, #FA7D09);
+    color: white;
+}
+
+.form-container {
+    text-align: center;
+    width: 80%;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.social-container {
+    margin-bottom: 20px;
+}
+
+.social {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+    border-radius: 50%;
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.google {
+    background-image: url('https://w7.pngwing.com/pngs/326/85/png-transparent-google-logo-google-text-trademark-logo-thumbnail.png');
+}
+
+.facebook {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg');
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    padding: 12px;
+    background-color: #FF4301;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #2F2519;
+}
+
+a {
+    margin-bottom: 15px;
+    font-size: 12px;
+    text-decoration: none;
+    color: #888;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.button1 {
+    background-color: #f0f0f0;
+    color: #2F2519;
+}
